@@ -54,5 +54,5 @@
   * Pydantic 1.9.1
 
 # Автор
-  [Ермаков Владислав](https://github.com/Vladislav199912)
+  [Ермаковвв Владислав](https://github.com/Vladislav199912)
   vladermakov@mail.ru
