@@ -63,8 +63,7 @@ async def delete_charity_project(
     charity_project = await check_project_for_invested_amount_before_delete(
         project_id=project_id, session=session
     )
-    charity_project = await charity_project_crud.remove(charity_project, session=session)
-    return charity_project
+    return await charity_project_crud.remove(charity_project, session=session)
 
 
 @router.patch(
